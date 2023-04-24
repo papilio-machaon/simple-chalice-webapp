@@ -1,6 +1,6 @@
 # Simple Web App using Chalice for running in AWS Lambda
 
-Uses `chalice` for deployment to `AWS Lambda`.
+ Uses `chalice` for deployment to `AWS Lambda`.
 
 ## One-off development environment setup
 
