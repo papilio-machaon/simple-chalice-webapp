@@ -9,7 +9,7 @@ def test_london_is_recognised():
     with Client(app) as client:
         response = client.http.get('/location?place=London')
         actual = response.body.decode("UTF-8")
-        assert "Malaysia" in actual
+        assert "London" in actual
         assert "capital" in actual
 
 
